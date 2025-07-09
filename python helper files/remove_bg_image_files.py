@@ -1,0 +1,18 @@
+# Importing Required Modules
+from rembg import remove
+from PIL import Image
+import cv2
+import imutils
+from PIL import Image
+import numpy as np
+
+# read an image as input using OpenCV
+string= "C:/Users/padma/Downloads/"
+li= ["coin","compass","coral","crystal","diamond","emerald","fossil","key","letter","shell","treasure_box"]
+
+for i in range (360):
+    print(i, li[10])
+    imagey= Image.open(string+"training_data/rotated/"+li[10]+"/"+str(i)+".png")
+    output = remove(imagey)
+    output.save(string+"training_data/rotated_nobg/"+li[10]+"/"+str(i)+".png")
+    

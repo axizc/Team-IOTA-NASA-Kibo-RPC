@@ -1,0 +1,44 @@
+item {
+  id: 1
+  name: 'coin'
+}
+item {
+  id: 2
+  name: "compass"
+}
+item {
+  id: 3
+  name: 'coral'
+}
+item {
+  id: 4
+  name: 'crystal'
+}
+item {
+  id: 5
+  name: 'diamond'
+}
+item {
+  id: 6
+  name: 'emerald'
+}
+item {
+  id: 7
+  name: 'fossil'
+}
+item {
+  id: 8
+  name: 'key'
+}
+item {
+  id: 9
+  name: 'letter'
+}
+item {
+  id: 10
+  name: 'shell'
+}
+item {
+  id: 11
+  name: 'treasure_box'
+}
